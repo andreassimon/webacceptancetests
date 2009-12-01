@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dependencies>
+	<acceptanceTests>
+		<dependency org="com.viadee" name="acceptancetest-library" rev="1.0.0.RC" />
+		<dependency org="com.viadee" name="acceptancetest-annotations" rev="1.0.0.RC" />
+	</acceptanceTests>
+</dependencies>
