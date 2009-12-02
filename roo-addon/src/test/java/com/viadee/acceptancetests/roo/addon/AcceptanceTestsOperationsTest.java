@@ -122,13 +122,13 @@ public class AcceptanceTestsOperationsTest {
 
 	@Test
 	public void loadDependenciesShouldLoadDependencies() {
-		assertEquals(1, _acceptanceTestsOperations.loadDependencies().size());
+		assertEquals(2, _acceptanceTestsOperations.loadDependencies().size());
 	}
 
 	@Test
 	public void newAcceptanceTestShouldUpdateDependencies() throws IOException {
 		newShowHomepageTest();
-		assertEquals(1, _projectOperations.getCallsToDependencyUpdate());
+		assertEquals(2, _projectOperations.getCallsToDependencyUpdate());
 	}
 
 	@Test
